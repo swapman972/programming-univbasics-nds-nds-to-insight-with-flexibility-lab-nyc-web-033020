@@ -1,1 +1,1 @@
-pp collection
+print collection
