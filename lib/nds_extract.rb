@@ -100,7 +100,7 @@ def movies_with_directors_set(source)
   count = 0
   
   while count < source.length do
-    
+    array << 
     count += 1
   end
   array
