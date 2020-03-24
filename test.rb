@@ -1,1 +1,3 @@
-print collection
+require 'yaml'
+
+pp collection
