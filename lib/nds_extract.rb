@@ -50,11 +50,12 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   array = []
   count = 0
-  while count < movies_collection.length
-    array << movie_with_director_name(name, count)
+  while count < movies_collection.length do
+    array << movie_with_director_name(name, movies_collection[count])
     count+= 1
   end
   array
+  
 end
 
 
